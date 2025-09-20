@@ -1,6 +1,6 @@
 # HDR-GAN: Multi-Exposure HDR Image Generation
 
-A Generative Adversarial Network for synthesizing multiple exposure images from a single LDR input using conditional adversarial training with heavy L1 reconstruction loss. This model is trained on multi-exposure HDRGS dataset with 5 exposure levels per scene.
+A Generative Adversarial Network for synthesizing multiple exposure images from a single LDR input using conditional adversarial training with L1 reconstruction loss. This model is trained on multi-exposure HDRGS dataset with 5 exposure levels per scene.
 
 ## Installation
 
@@ -47,7 +47,7 @@ python train.py --dataset ./path/to/dataset
 python main.py --image input.jpg --model generator.pth
 
 # Use custom model checkpoint
-python main.py --image input.jpg --model generator_epoch_50.pth
+python main.py --image input.jpg --model generator_epoch_*.pth
 ```
 
 ## Architecture
