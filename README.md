@@ -1,4 +1,4 @@
-# HDR-GAN: Multi-Exposure Image Generation
+# GAN-based Multi-Exposure Image Generation for HDR Imaging
 
 A Generative Adversarial Network for synthesizing multiple exposure images from a single LDR input using conditional adversarial training with L1 reconstruction loss. This model is trained on multi-exposure HDRGS dataset with 5 exposure levels per scene.
 
