@@ -77,7 +77,7 @@ Examples of multi-exposure generation from single LDR input using our HDR-GAN mo
 | ![input1](images/1.png) | ![](images/gen1.png)  |
 | ![input1](images/2.png) | ![](images/gen2.png) |
 
-*From left to right: Darkest exposure (0) to Brightest exposure (4)*
+
 
 
 ## Author
