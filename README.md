@@ -21,16 +21,16 @@ torchmetrics
 
 ```
 dataset/
-├── Bathroom/
+├── Scen1/
 │   └── images/
 │       ├── 0_0.png    # Scene 0, exposure 0 (darkest)
 │       ├── 0_1.png    # Scene 0, exposure 1
 │       ├── 0_2.png    # Scene 0, exposure 2 (middle)
 │       ├── 0_3.png    # Scene 0, exposure 3
 │       └── 0_4.png    # Scene 0, exposure 4 (brightest)
-├── Bear/
-├── Table/
-└── [other_categories]/
+├── Scene2/
+├── Scene3/
+└── [Other Scenes]/
 ```
 
 ## Usage
@@ -74,8 +74,8 @@ Examples of multi-exposure generation from single LDR input using our HDR-GAN mo
 
 | Input LDR | Generated Exposures |
 |-----------|-------------------|
-| ![input1](results/input1.jpg) | ![exp1](results/output_0.png) ![exp2](results/output_1.png) ![exp3](results/output_2.png) ![exp4](results/output_3.png) ![exp5](results/output_4.png) |
-| ![input2](results/input2.jpg) | ![exp1](results/sample2_0.png) ![exp2](results/sample2_1.png) ![exp3](results/sample2_2.png) ![exp4](results/sample2_3.png) ![exp5](results/sample2_4.png) |
+| ![input1](images/1.png) | ![](images/gen1.png)  |
+| ![input1](images/2.png) | ![](images/gen2.png) |
 
 *From left to right: Darkest exposure (0) to Brightest exposure (4)*
 
