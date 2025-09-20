@@ -62,12 +62,6 @@ Our HDR-GAN employs a **conditional adversarial framework** for multi-exposure i
 
 The pipeline processes: **Single LDR → Generator → 5 Exposure Levels → Discriminator Evaluation → Loss Computation**, optimizing both networks for faithful multi-exposure synthesis.
 
-## Command Arguments
-
-**Training:** `--dataset` (required)
-
-**Inference:** `--image` (required), `--model` (default: "generator.pth")
-
 ## Results
 
 Examples of multi-exposure generation from single LDR input using our HDR-GAN model:
