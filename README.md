@@ -79,5 +79,4 @@ Examples of multi-exposure generation from single LDR input using our HDR-GAN mo
 **Tejas Thakare**  
 GitHub: [TejasCThakare](https://github.com/TejasCThakare)  
 LinkedIn: [tejas-t-722758204](https://www.linkedin.com/in/tejas-t-722758204)
-```
 
